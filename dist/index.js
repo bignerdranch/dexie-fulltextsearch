@@ -31,10 +31,10 @@ var intersect = (() => {
   };
 })();
 
-let index$1 = lunr();
+let index$1 = lunr(() => {});
 index$1.pipeline.remove(lunr.stopWordFilter);
 
-var tokenize = (text => index$1.pipeline.run(lunr.tokenizer(underscore_string.cleanDiacritics(text))));
+var tokenize = (text => index$1.pipeline.run(lunr.tokenizer(underscore_string.cleanDiacritics(text))).map(t => t.toString()));
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
