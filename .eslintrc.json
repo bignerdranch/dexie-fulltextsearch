@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "Promise": true,
+    "Set": true
+  },
+  "extends": "eslint:recommended"
+}

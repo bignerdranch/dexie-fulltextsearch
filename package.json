@@ -4,6 +4,7 @@
   "description": "Full text search for IndexedDB databases, powered by Dexie.",
   "main": "dist/index.js",
   "scripts": {
+    "lint": "eslint ./",
     "build": "rollup -c"
   },
   "repository": {
@@ -31,7 +32,12 @@
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-es2016": "^6.24.1",
     "babel-preset-es2017": "^6.24.1",
+    "eslint": "^3.19.0",
     "rollup": "^0.41.6",
     "rollup-plugin-babel": "^2.7.1"
+  },
+  "dependencies": {
+    "lunr": "^2.0.3",
+    "underscore.string": "^3.3.4"
   }
 }
