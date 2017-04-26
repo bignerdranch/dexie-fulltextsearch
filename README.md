@@ -1,2 +1,7 @@
-# dexie-fulltextsearch
-Full text search for IndexedDB databases, powered by Dexie.
+# Dexie Full Text Search
+
+Add full text searching to IndexedDB databases with Dexie.
+
+```javascript
+// TODO: Usage
+```

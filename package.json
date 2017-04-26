@@ -1,0 +1,37 @@
+{
+  "name": "dexie-fulltextsearch",
+  "version": "1.0.0",
+  "description": "Full text search for IndexedDB databases, powered by Dexie.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bignerdranch/dexie-fulltextsearch.git"
+  },
+  "keywords": [
+    "javascript",
+    "dexie",
+    "indexeddb",
+    "database",
+    "browser",
+    "full-text-search",
+    "search",
+    "plugin"
+  ],
+  "author": "Jonathan Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bignerdranch/dexie-fulltextsearch/issues"
+  },
+  "homepage": "https://github.com/bignerdranch/dexie-fulltextsearch#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1"
+  }
+}
